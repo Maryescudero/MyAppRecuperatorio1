@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ulp.myapprecuperatorio1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_cargar"
+        android:name="com.ulp.myapprecuperatorio1.ui.Cargar.CargarFragment"
+        android:label="@string/menu_cargar"
+        tools:layout="@layout/fragment_cargar" />
+    <fragment
+        android:id="@+id/nav_eliminar"
+        android:name="com.ulp.myapprecuperatorio1.ui.Eliminar.EliminarFragment"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/fragment_eliminar" />
+
+
+</navigation>
